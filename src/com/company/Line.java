@@ -7,7 +7,7 @@ public class Line {
     private double length;
 
     public double getLength() {
-        length=Math.sqrt(Math.pow(p1.xCoordinate-p2.xCoordinate,2)+Math.pow(p1.yCoordinate-p2.yCoordinate,2));
+        length=Math.sqrt(Math.pow(p1.getxCoordinate()-p2.getxCoordinate(),2)+Math.pow(p1.getyCoordinate()-p2.getyCoordinate(),2));
         return length;
     }
 
