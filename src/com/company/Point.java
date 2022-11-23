@@ -1,8 +1,8 @@
 package com.company;
 
 public class Point {
-    double xCoordinate;
-    double yCoordinate;
+    private double xCoordinate;
+    private double yCoordinate;
 
     public double getxCoordinate() {
         return xCoordinate;
